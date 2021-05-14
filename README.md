@@ -1,5 +1,17 @@
 # Notepad
 
+- CSS variables
+    ```css
+    /* defining */
+    :root {
+        --black: #000;
+    }
+    /* usage */
+    .class {
+        background-color: var(--black);
+    }
+    ```
+
 - Emmet
 
     - element.class
