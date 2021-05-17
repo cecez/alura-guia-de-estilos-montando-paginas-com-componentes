@@ -3,7 +3,7 @@
     border: none;
     box-shadow: 10px 10px 30px #FFCB473D;
     color: var(--branco);
-    font-family: 'Montserrat', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     padding-bottom: 1rem;
     padding-top: 1rem;
