@@ -1,10 +1,10 @@
 .botao {
     background-color: var(--amarelo);
     border: none;
-    box-shadow: 10px 10px 30px #FFCB473D;
+    box-shadow: 10px 10px 30px var(--amarelo-transparente);
     color: var(--branco);
     font-family: inherit;
-    font-weight: 700;
+    font-weight: var(--fonte-peso-botao);
     padding-bottom: 1rem;
     padding-top: 1rem;
     text-align: center;

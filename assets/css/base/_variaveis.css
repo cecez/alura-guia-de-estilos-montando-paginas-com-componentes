@@ -1,9 +1,16 @@
 :root {
     --amarelo: #ffcb47;
+    --amarelo-transparente: #FFCB473D;
     --branco: #fff;
     --cinza: #909090;
     --preto: #202020;
+    --preto-transparente: #0000000F;
 
     --fonte-familia-corpo: 'Montserrat', sans-serif;
+    --fonte-familia-titulo-destaque: 'Elsie Swash Caps', serif;
+    --fonte-peso-titulo-destaque: 900;
+    --fonte-peso-botao: 700;
     --fonte-tamanho-corpo: 11px;
+    --fonte-tamanho-titulo: 1.375rem;
+    --fonte-tamanho-titulo-destaque: 2rem;
 }

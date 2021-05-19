@@ -1,10 +1,18 @@
 @import url(_variaveis.css);
 @import url(_reset.css);
 
+.alinhamento--centro {
+    text-align: center;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
 body {
     background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
     background-position: center;
-
+    color: var(--cinza);
     font-family: var(--fonte-familia-corpo);
     font-size: var(--fonte-tamanho-corpo);
 }
@@ -12,4 +20,22 @@ body {
 .container {
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.texto {
+    line-height: 2.6rem;
+}
+
+.titulo {
+    font-size: var(--fonte-tamanho-titulo);
+}
+
+.titulo--destaque {
+    color: var(--preto);
+    display: block;
+    font-family: var(--fonte-familia-titulo-destaque);
+    font-size: var(--fonte-tamanho-titulo-destaque);
+    font-weight: var(--fonte-peso-titulo-destaque);
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
