@@ -1,8 +1,7 @@
 .chamada {
-    /* background-image: url(../../assets/img/splash-chamada.svg);
-    background-position: top -4rem right;
-    background-repeat: no-repeat;
-    margin-bottom: 2.5rem; */
     padding-top: 2.5rem;
-    /* position: relative; */
+}
+
+.produto-descricao {
+    margin-bottom: 2.5rem;
 }
